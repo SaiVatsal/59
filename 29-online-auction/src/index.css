@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .pulse-glow {
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.4);
+  }
+}

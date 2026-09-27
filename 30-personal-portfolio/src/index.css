@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .grain {
+    background-image: radial-gradient(rgba(139, 92, 246, 0.15) 1px, transparent 0);
+    background-size: 24px 24px;
+  }
+}
